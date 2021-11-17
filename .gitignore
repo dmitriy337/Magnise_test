@@ -1,0 +1,10 @@
+# PostgreSQL data
+psql_data/
+# Env
+*.env
+
+# Working env
+.idea/
+
+__pycache__
+Pipfile.lock
