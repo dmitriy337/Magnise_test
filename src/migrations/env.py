@@ -15,7 +15,7 @@ fileConfig(config.config_file_name)
 
 target_metadata = Users.metadata
 
-config.set_main_option("sqlalchemy.url", os.getenv("DATABASE_URL"))
+config.set_main_option("sqlalchemy.url", os.getenv("DATABASE_URL", "postgresql+psycopg2://fastapi_user:fastapi_pass@db:5432/db"))
 
 
 def run_migrations_offline():

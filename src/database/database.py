@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+psycopg2://fastapi_user:fastapi_pass@db:5432/db")
 
 # SQLAlchemy
 engine = create_engine(DATABASE_URL)
