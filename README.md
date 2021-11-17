@@ -54,5 +54,4 @@
 
    ​	Id, email, username
 
-​	![image-20211117110739121](/Users/vuhiza/Library/Application Support/typora-user-images/image-20211117110739121.png)
-
+​	![image-20211117110739121](https://i.imgur.com/qyqfEXJ.png)
